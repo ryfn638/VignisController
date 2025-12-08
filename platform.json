@@ -1,12 +1,11 @@
 {
-  "name": "quty",
-  "title": "QUTy",
-  "description": "QUTy is a development board based on the Microchip ATtiny1626 AVR microcontroller, designed to teach microcontroller programming in the course CAB202 Microprocessors and Digital Systems. The board features a USB-C interface for programming and serial communication, pushbuttons, a potentiometer, a piezo buzzer and a 2-digit, 7-segment display.",
-  "homepage": "https://cab202.github.io/quty/",
+  "name": "vignis",
+  "title": "VIGNIS",
+  "description": "",
+  "homepage": "https://github.com/ryfn638/VignisController/",
   "license": "Apache-2.0",
   "keywords": [
-    "QUT",
-    "CAB202",
+    "GobournHub",
 	"AVR",
     "Microchip",
     "ATtiny"
@@ -16,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cab202/quty.git"
+    "url": "https://github.com/ryfn638/VignisController.git"
   },
   "version": "1.0.2",
   "frameworks": {
