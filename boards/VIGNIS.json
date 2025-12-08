@@ -1,0 +1,15 @@
+{
+  "build": {
+    "mcu": "attiny5",
+    "f_cpu": "1000000L",
+    "extra_flags": "-D__AVR_ATtiny5__"
+  },
+  "upload": {
+    "protocol": "custom",
+    "maximum_size": 512,
+    "maximum_ram_size": 32
+  },
+  "frameworks": [],
+  "name": "ATtiny5"
+}
+
