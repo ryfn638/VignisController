@@ -1,5 +1,5 @@
 from platformio.public import PlatformBase
 
-class QutyPlatform(PlatformBase):
+class VignisPlatform(PlatformBase):
     def is_embedded(self):
         return True
