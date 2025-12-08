@@ -1,5 +1,5 @@
 # VIGNIS Microcontroller Platform for PLATFORMIO
 
-A platform for development or modification to VIGNIS ring's microcontroller
+Platform to support the development revolving around the microcontroller used for the VIGNIS Ring
 
 This uses an ATtiny5 Microcontroller
