@@ -1,4 +1,7 @@
 {
+  "name" : "VIGNIS",
+  "vendor" : "GobournHub",
+  "url" : "https://github.com/ryfn638/VignisController",
   "build": {
     "mcu": "attiny5",
     "f_cpu": "1000000L",
@@ -10,6 +13,5 @@
     "maximum_ram_size": 32
   },
   "frameworks": [],
-  "name": "ATtiny5"
 }
 
