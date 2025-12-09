@@ -15,6 +15,6 @@
     "protocol": "serialupdi",
     "maximum_size": 512,
     "maximum_ram_size": 32
-  },
+  }
 }
 
