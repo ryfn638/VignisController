@@ -1,33 +1,19 @@
 {
-  "name": "vignis",
-  "title": "VIGNIS",
-  "description": "",
-  "homepage": "https://github.com/ryfn638/VignisController/",
-  "license": "Apache-2.0",
-  "keywords": [
-    "GobournHub",
-	"AVR",
-    "Microchip",
-    "ATtiny"
-  ],
-  "engines": {
-    "platformio": "^5"
+  "name": "VIGNIS",
+  "vendor": "GobournHub",
+  "url": "https://github.com/ryfn638/VignisController",
+  "mcu": "attiny5",
+  "f_cpu": 3333333,
+  "frameworks": [],
+  "build": {
+    "core": "AVR",
+    "mcu": "attiny5",
+    "f_cpu": "3333333L",
+    "extra_flags": "-D__AVR_DEV_LIB_NAME__=tn5"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ryfn638/VignisController.git"
-  },
-  "version": "1.0.2",
-  "frameworks": {
-  },
-  "packages": {
-    "toolchain-atmelavr": {
-      "type": "toolchain",
-      "owner": "platformio",
-      "version": "~3.70300.220127"
-    }
-  },
-  "pythonPackages": {
-    "pymcuprog": "3.13.3.166"
+  "upload": {
+    "maximum_size": 512,
+    "maximum_ram_size": 32,
+    "protocol": "uart"
   }
 }
